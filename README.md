@@ -3,9 +3,10 @@
  [![ML Model Tests](https://github.com/garima-mahato/ERAV3_Session6_CNNsAndBackpropagation/actions/workflows/ml-tests.yml/badge.svg)](https://github.com/garima-mahato/ERAV3_Session6_CNNsAndBackpropagation/actions/workflows/ml-tests.yml)
 
 
-| Jupyter Notebook Link | https://github.com/garima-mahato/ERAV3_Session6_CNNsAndBackpropagation/blob/main/ERA_V3_Session6.ipynb |
+| Jupyter Notebook Link | [ERA_V3_Session6.ipynb](https://github.com/garima-mahato/ERAV3_Session6_CNNsAndBackpropagation/blob/main/ERA_V3_Session6.ipynb) |
 |---|---|
 
+#### Best/Final Test Accuracy: 99.49 %
 
 ## Model Architecture
 - CNN with below architecture:
@@ -87,6 +88,10 @@ Params size (MB): 0.04
 Estimated Total Size (MB): 0.94
 ----------------------------------------------------------------
 ```
+
+**Model Architecture**
+
+![Model Architecture](https://raw.githubusercontent.com/garima-mahato/ERAV3_Session6_CNNsAndBackpropagation/refs/heads/main/assets/mnist_cnn_torchviz.png)
 
 - Input: 28x28 grayscale images
 - Output: 10 classes (digits 0-9)
@@ -189,6 +194,10 @@ Train: Loss=0.0924 Batch_id=937 Accuracy=98.54: 100%|█████████
 Test set: Average loss: 0.0159, Accuracy: 9949/10000 (99.49%)
 ```
 
+**Training and Test Accuracy/Loss Graphs**
+
+![Training and Test Accuracy/Loss Graphs](https://raw.githubusercontent.com/garima-mahato/ERAV3_Session6_CNNsAndBackpropagation/refs/heads/main/assets/train_test_graph.png)
+
 ## Requirements
 - Python 3.8+
 - PyTorch
@@ -197,7 +206,7 @@ Test set: Average loss: 0.0159, Accuracy: 9949/10000 (99.49%)
 
 ## Local Setup
 
-###1. Clone the repository
+### 1. Clone the repository
 ```bash
 git clone <repository-url>
 cd <folder-path>
